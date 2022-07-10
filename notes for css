@@ -1,0 +1,58 @@
+------------------------------------------------------------------------------------------
+selectors for css
+selectors are used for grabbing HTML elements
+there are many selectors, every selector end goal is same
+
+Element Selector:
+<h1>text in h1</h1>
+<p>text in p</p>
+
+h1{
+	color: blue;
+}
+
+p{
+	color: blue;
+}
+
+class selector:
+. is used for class selector
+<p class="aclass">text inside class</p>
+
+.aclass{
+	color: blue;
+}
+
+id selector:
+# is used for id selector
+<p id="sometext">Text here</p>
+
+#sometext{
+	color:blue;
+}
+
+------------------------------------------------------------------------------------------
+
+Classes & ID's in HTML
+
+class & id have their unique functionality, 
+
+Generally, ids are used for single elements that appear on the page for only once(header, footer ...)
+It is better to use classes for controlling multiple types of styling elements
+
+a HTML selector can have both class & id
+
+------------------------------------------------------------------------------------------
+
+Specifivity & when to use selectors
+
+> = override
+In-line style > id > class > tag  [v.imp css factor]
+
+if a div tag has class and id then it follows id only, bcoz id overrides class
+
+------------------------------------------------------------------------------------------
+
+PseudoSelectors 
+- used for responsiveness
+- used a lot in animations
