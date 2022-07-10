@@ -1,0 +1,63 @@
+Three methods for adding CSS
+
+Inline,Internal,External
+
+------------ Inline CSS ------------
+	<html>
+		<head>
+				<h1 style="color:green">In-line CSS</h1>
+		</head>
+	</html>	
+
+------------ Internal CSS ------------
+-->> Style tags must be present in head tag
+	<html>
+	<head>
+		<style>
+			p
+			{ 
+			 color:#009;
+			 font-size:18px;
+			 font-weight:700;
+			}
+			h2
+			{
+				background-color: pink;
+				color: red;
+			}
+		</style>
+			<h1>In-line CSS</h1>
+			<h2> This is h2 tag text </h2>
+	</head>
+	<body>
+		<p>
+			Paragraph1
+		</p>
+		<p>
+			Paragraph 2
+		</p>
+
+	
+	</body>
+</html>
+
+------------ External CSS ------------
+To Target selectors
+h1
+{
+	
+}
+p
+{
+	
+}
+class -> .
+
+
+padding shorthand
+
+p
+{
+	margin: top right bottom left;
+	margin: 5px 10px 5px 10px
+}

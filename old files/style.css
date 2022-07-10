@@ -1,0 +1,57 @@
+body
+{
+	line-height: 1.6em;
+	font-weight: 800;
+	background-color: cyan;
+	margin: 00;
+}
+.box-1
+{
+	background-color: pink;
+	color: red;
+	border : 5px solid red;
+	border-style: dotted;
+}
+
+.box-1 h1
+{
+	background-color: yellow;
+	text-transform: uppercase;
+}
+
+.box-1 h2
+{
+	color: black;
+	background-color: blue;
+	text-shadow: transparent;
+	letter-spacing: 0.1em;
+	word-spacing : 1em;
+}
+.box-2
+{
+	border-left: 5px solid red;
+	border-right: 5px solid red;
+	border-top : 5px solid orange;
+	border-bottom : 5px solid orange;
+	 width: 500px;
+	 border-bottom-width: 20px;
+	 border-right-style: dotted;
+
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top : 10px;
+	padding-bottom: 10px;
+}
+.container
+{
+	width: 1000px;
+}
+
+.categories
+{
+	border-radius: 10%;
+	margin: 2;
+	padding-left: 19px;
+	background-color: green;
+	width: 1000px;
+}
